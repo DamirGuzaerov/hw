@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SolutionRoot CoveredStatements="68" TotalStatements="68" CoveragePercent="100" ReportType="Xml" DotCoverVersion="2021.2.1">
+  <Project Name="Homework1" CoveredStatements="48" TotalStatements="48" CoveragePercent="100">
+    <Namespace Name="Homework1" CoveredStatements="48" TotalStatements="48" CoveragePercent="100">
+      <Type Name="Calculator" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+        <Method Name="Calculate(int,CalculatorOperation,int):int" CoveredStatements="8" TotalStatements="8" CoveragePercent="100" />
+      </Type>
+      <Type Name="Parser" CoveredStatements="32" TotalStatements="32" CoveragePercent="100">
+        <Method Name="CheckArgLength(int):bool" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" />
+        <Method Name="ParseCalcArguments(string[],out int,out CalculatorOperation,out int):int" CoveredStatements="11" TotalStatements="11" CoveragePercent="100" />
+        <Method Name="TryParseOperationOrQuit(string,out CalculatorOperation):bool" CoveredStatements="9" TotalStatements="9" CoveragePercent="100" />
+        <Method Name="TryParseOrQuit(string,bool):bool" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" />
+      </Type>
+      <Type Name="Program" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+        <Method Name="Main(string[]):int" CoveredStatements="8" TotalStatements="8" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Project>
+  <Project Name="TestProject1" CoveredStatements="20" TotalStatements="20" CoveragePercent="100">
+    <Namespace Name="TestProject1" CoveredStatements="20" TotalStatements="20" CoveragePercent="100">
+      <Type Name="Tests" CoveredStatements="20" TotalStatements="20" CoveragePercent="100">
+        <Method Name="CalculateIsCorrect(int,CalculatorOperation,int,int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="MainIncorrectInput(string[],int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="ParserLengthIsIncorrectTest(string[],int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="ParserOperationIsIncorrectTest(string[],int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="ParserValuesAreCorrectTest(string[],int):void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Project>
+</SolutionRoot>
